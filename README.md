@@ -22,14 +22,54 @@
 
 ## Design & Planning:
 
+### Main Purpose of Website
+The core purpose of this website is to promote mental health awareness by providing easy-to-understand, beginner-friendly information in a calm, supportive, and well-organised online space. It aims to:
+
+🧠 Educate visitors on common mental health issues and stress management techniques
+
+🎯 Create a safe, welcoming environment where users feel supported and not overwhelmed
+
+🎨 Present content in a clean, calming design, using HTML, CSS, and Bootstrap to enhance accessibility and emotional comfort
+
+#### Target Audiences Identified 
+
+1. Individuals Seeking Mental Health Information
+2. Students and Young Adults
+3. Caregivers and Family Members
+4. General Public and Community Members
+
 ### User Stories
-Write your user stories in this section
+
+User stories shown in Github project: https://github.com/users/GurpritK/projects/4 
+
+
 ### Wireframes
-Attach wireframes in this section
+
+![mobile wireframes](assets/images/readme-images/mobile-wireframes.png)
+![tablet and desktop wireframes](assets/images/readme-images/other-wireframes.png)
+
+
 ### Typography
-Explain font you've used for your project
+
+I looked for fonts with a calm characteristic, and a minimal, simple design. Anythign too cursive felt busy, and didn't fit the design aesthetic of calm, minimal and clean that I'm looking to implement. I used AI prompts for google fonts to fit this description, and decided on using the **Inter** font.
+
 ### Colour Scheme
-Screenshoot of the colour scheme for your project
+ 
+Colors That Calm the Mind: What Psychology and Cognitive Science Reveal: https://blog.cognifit.com/colors-that-calm-the-mind-what-psychology-and-cognitive-science-reveal/
+
+- Used AI to find a colour palette with the calming colours identified from the article:
+    - Sky Blue #A3D5F7 - Main background, buttons, section headers
+    -  Soft Sage Green	#B5D8B2	- Accent panels, quotes, navigation highlights
+    - Warm Beige	#F5EBDD- Card backgrounds, hero image overlay
+    - Misty Lavender	#DDD6F3- Icon fills, modal backgrounds, section dividers
+    - Cool Gray	#F0F0F0- Base layout, footer, forms
+
+- Adjusted suggested sky blue to a slightly different shade for better compatibility
+
+![Compatible Colour Palette Screenshot](assets/images/readme-images/colour-conflict.png)
+
+https://color.adobe.com/create/color-accessibility 
+
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
