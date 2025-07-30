@@ -97,6 +97,12 @@ Used Gemini AI to create my images for 'common mental health issues', focussing 
 
 ## Testing
 Important part of your README!!!
+
+When creating the website, I did not find the colours visually compatabile despite the AI recommendations, and make changes to the colour palette as I worked through it. The main colour palette evolved to: 
+
+Website's color palette: (#97C3FA, #B5D8B2, #654321).
+
+
 ### Google's Lighthouse Performance
 Screenshots of certain pages and scores (mobile and desktop)
 ### Browser Compatibility
