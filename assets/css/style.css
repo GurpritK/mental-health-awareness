@@ -24,6 +24,12 @@ body {
 }
 
 /* Navigation Styles */
+.navbar {
+    background-color: white !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
 .logo {
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -102,12 +108,14 @@ body {
     text-align: center;
     color: #654321;
     padding: 2rem;
+    margin-top: 80px; /* Add top margin to account for fixed navbar */
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     max-width: 600px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-content p {
@@ -458,7 +466,7 @@ body {
     
     .hero-content {
         padding: 1.5rem;
-        margin: 0 1rem;
+        margin: 60px 1rem 0 1rem; /* Adjust top margin for mobile */
     }
     
     .video-container {
@@ -495,6 +503,7 @@ body {
     
     .hero-content {
         padding: 1rem;
+        margin-top: 60px; /* Maintain top spacing on very small screens */
     }
     
     .hero-cta,
