@@ -135,6 +135,10 @@ The site was deployed to Github Pages using the following method:
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
   - Code & Text Content
+
+  https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-facts-and-statistics/ 
+  https://www.youtube.com/watch?v=qUz93CyNIz0 
+
   
   - Media
   
