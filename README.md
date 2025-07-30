@@ -22,6 +22,8 @@
 
 ## Design & Planning:
 
+https://ui.dev/amiresponsive - add website here once deployed to get a screenshot.
+
 ### Main Purpose of Website
 The core purpose of this website is to promote mental health awareness by providing easy-to-understand, beginner-friendly information in a calm, supportive, and well-organised online space. It aims to:
 
@@ -82,6 +84,10 @@ HTML
 CSS
 Bootstrap
 Github
+
+### AI Use
+Used AI to implement my hero image and make it responsive across different screens, with an animated moving 'immediate support' button to bring attention to this CTA. 
+
 ## Testing
 Important part of your README!!!
 ### Google's Lighthouse Performance
@@ -101,6 +107,11 @@ paste here you user story | what is visible to the user and what action they sho
 
 ## Bugs
 List of bugs and how did you fix them
+Navbar font set to black by default by inheriting bootstrap properties. Created more specific styling to target this, and change to brown. 
+
+Get Immediate Support CTA button and navbar icon positioning overlaps on smaller screens.
+
+Navbar burger icon opens up menu on the left hand side of page for smaller screens, but the icon sits on the right.
 
 ## Deployment
 

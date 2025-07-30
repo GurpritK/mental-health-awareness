@@ -1,6 +1,18 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
+/* Colour Palette
+    - Sky Blue #A3D5F7 - Main background, buttons, section headers
+    - Soft Sage Green	#B5D8B2	- Accent panels, quotes, navigation highlights
+    - Warm Beige	#F5EBDD- Card backgrounds, hero image overlay
+    - Misty Lavender	#DDD6F3- Icon fills, modal backgrounds, section dividers
+    - Cool Gray	#F0F0F0- Base layout, footer, forms
+
+    Updates to colour scheme, display font in a brown shade to make it stand out:  #654321
+    */
+
+
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -11,7 +23,34 @@
 body {
     font-family: 'Inter', 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #654321;
+}
+
+/* Navbar styles */
+
+/* override bootstrap class font colour settings */
+.navbar-nav .nav-link,  
+.navbar-nav .active{
+    color: #654321;
+}
+
+.navbar-cta {
+    display: inline-block;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #654321;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    transition: all 0.3s ease;
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.navbar-cta:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Hero Section */
@@ -64,48 +103,6 @@ body {
     opacity: 0.9;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     animation: fadeInUp 1s ease-out 0.3s both;
-}
-
-
-/* Navbar styles */
-
-.navbar-cta {
-    display: inline-block;
-    padding: 15px 30px;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    font-weight: 600;
-    transition: all 0.3s ease;
-    animation: fadeInUp 1s ease-out 0.6s both;
-}
-
-.navbar-cta:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Mist Animation */
-.mist {
-    position: absolute;
-    width: 200%;
-    height: 100%;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><filter id="blur"><feGaussianBlur stdDeviation="8"/></filter></defs><circle cx="100" cy="300" r="50" fill="rgba(255,255,255,0.1)" filter="url(%23blur)"/><circle cx="300" cy="200" r="80" fill="rgba(255,255,255,0.08)" filter="url(%23blur)"/><circle cx="500" cy="400" r="60" fill="rgba(255,255,255,0.12)" filter="url(%23blur)"/><circle cx="700" cy="250" r="90" fill="rgba(255,255,255,0.06)" filter="url(%23blur)"/><circle cx="900" cy="350" r="70" fill="rgba(255,255,255,0.1)" filter="url(%23blur)"/><circle cx="1100" cy="180" r="55" fill="rgba(255,255,255,0.09)" filter="url(%23blur)"/></svg>');
-    animation: float 20s ease-in-out infinite;
-    opacity: 0.6;
-}
-
-.mist:nth-child(2) {
-    animation: float 25s ease-in-out infinite reverse;
-    opacity: 0.4;
-}
-
-.mist:nth-child(3) {
-    animation: float 30s ease-in-out infinite;
-    opacity: 0.3;
 }
 
 /* Animations */
@@ -188,4 +185,45 @@ body {
         font-size: 1rem;
         margin-bottom: 1rem;
     }
+}
+
+/* Hero Background Image */
+.hero-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Support Section */
+.support-section {
+    height: 100vh;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.support-title {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.support-description {
+    color: #666;
+    max-width: 600px;
+}
+
+/* Logo styling */
+.logo {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }
