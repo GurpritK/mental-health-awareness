@@ -327,6 +327,65 @@ body {
     border: none;
 }
 
+/* Emergency Support Section Styling */
+.emergency-support-container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.emergency-card,
+.urgent-support-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    height: 100%;
+    border: 2px solid;
+}
+
+.emergency-card {
+    background: #fff5f5;
+    border-color: #dc3545;
+    justify-content: center;
+}
+
+.urgent-support-card {
+    background: #fffbf0;
+    border-color: #ffc107;
+}
+
+.emergency-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.emergency-action {
+    font-size: 1.1rem;
+    color: #dc3545;
+    margin-bottom: 0.5rem;
+}
+
+.emergency-note {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+.support-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.support-list li {
+    padding: 0.5rem 0;
+    color: #654321;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -377,6 +436,17 @@ body {
     .helpful-tips-section,
     .support-section {
         padding-top: 60px;
+    }
+    
+    .emergency-support-container {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .emergency-card,
+    .urgent-support-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
 }
 

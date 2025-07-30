@@ -75,6 +75,11 @@ https://color.adobe.com/create/color-accessibility
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
+
+- 'Get Support' button shown at the beginning of the page, floating into view, prompting users attention to the CTA. The button leads to the 'support' section of the website, so users can immediately find the support they require.
+- 'Common Symptoms' dropdown menu which shows the symptoms associated with each common mental health problem. Showcasing this data within a dropdown meant that the website was not overcroweded with information, and users can click on the symptoms they are interested to learn more about.
+- Embedded YouTube link on 'How to manange stress' found within the corresponding section to offer information in a different format for visual learners. Users can click on the video directly within the website page.
+
 ### Navigation
 ### Footer
 ### Other features
