@@ -127,34 +127,22 @@ body {
     animation: fadeInUp 1s ease-out;
 }
 
-/* Main Body Sections */
-.support-section, 
-.common-issues-section {
+/* Main Body Sections - Combined styling for all content sections */
+.common-issues-section,
+.helpful-tips-section,
+.support-section {
     position: relative;
     z-index: 10;
-    min-height: 100vh;
-    background: whitesmoke;
-    padding: 80px 0;
-}
-
-.common-issues-section {
-    background: #f8f9fa;
-    padding-top: 80px;
-    display: block; /* Override flex to allow Bootstrap grid to work */
-    text-align: center;
-}
-
-.helpful-tips-section {
     background: #f8f9fa;
     padding: 80px 0;
     display: block;
     text-align: center;
 }
 
-.support-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Common issues section specific overrides */
+.common-issues-section {
+    min-height: 100vh;
+    background: whitesmoke;
 }
 
 .support-content, 
@@ -177,7 +165,10 @@ body {
     z-index: 15;
 }
 
-.common-issues-section h2 {
+/* Section headings - unified styling for all section h2 elements */
+.common-issues-section h2,
+.helpful-tips-section h2,
+.support-section h2 {
     color: #2d5a3d !important;
     font-weight: 700;
     margin-bottom: 2rem;
@@ -186,17 +177,10 @@ body {
     text-align: center;
 }
 
-.helpful-tips-section h2 {
-    color: #2d5a3d !important;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    position: relative;
-    z-index: 15;
-    text-align: center;
-}
-
+/* Section lead paragraphs - unified styling for all section lead text */
 .common-issues-section .lead,
-.helpful-tips-section .lead {
+.helpful-tips-section .lead,
+.support-section .lead {
     color: #666 !important;
     margin-bottom: 3rem;
     position: relative;
@@ -257,7 +241,7 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Accordion styling for cards */
+/* Accordion styling - consolidated and cleaned up */
 .common-issues-section .accordion {
     margin-top: auto;
 }
@@ -298,9 +282,11 @@ body {
     line-height: 1.4;
 }
 
-/* Remove extra spacing under accordion button */
+/* Global accordion fixes - remove extra spacing */
 .accordion-button {
     margin-bottom: 0 !important;
+    min-height: 0 !important;
+    padding: 0.5rem 1rem !important;
 }
 
 .accordion-header {
@@ -308,15 +294,8 @@ body {
     padding-bottom: 0 !important;
 }
 
-.accordion-button {
-    min-height: 0 !important;
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
-}
-
 .accordion-body {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding: 0.5rem 1rem !important;
 }
 
 /* Video/iframe styling */
@@ -395,7 +374,8 @@ body {
     }
     
     .common-issues-section,
-    .helpful-tips-section {
+    .helpful-tips-section,
+    .support-section {
         padding-top: 60px;
     }
 }
@@ -413,7 +393,8 @@ body {
         padding: 1rem;
     }
     
-    .hero-cta {
+    .hero-cta,
+    .navbar-cta {
         padding: 12px 24px;
         font-size: 0.9rem;
     }
