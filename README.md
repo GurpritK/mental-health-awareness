@@ -111,6 +111,10 @@ paste here you user story | what is visible to the user and what action they sho
 List of bugs and how did you fix them
 Navbar font set to black by default by inheriting bootstrap properties. Created more specific styling to target this, and change to brown. 
 
+Issues with the dropdown for 'common symptoms' - when I opened up one dropdown, it would increase the spacing in the cards of the neighbouring cards. Used Copilot to identify the cause:
+"Problems Identified:
+Inconsistent Card Heights: When one accordion expanded, it made that card taller, shifting other cards"
+
 Get Immediate Support CTA button and navbar icon positioning overlaps on smaller screens.
 
 Navbar burger icon opens up menu on the left hand side of page for smaller screens, but the icon sits on the right.

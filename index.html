@@ -73,23 +73,45 @@
     </section>
 
     <!-- Recognise common mental health issues -->
-    <section id="common-issues" class="common-issues-section container">
-                <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center mb-5">
-                        <h2 class="display-6 fw-bold mb-3 mt-7 support-title">How To Recognise Common Mental Health Issues</h2>
-                        <p class="lead support-title">This is where you can add your mental health resources, support information, and additional content.</p>
-                    </div>
+    <section id="common-issues" class="common-issues-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold mb-3 mt-5">How To Recognise Common Mental Health Issues</h2>
+                    <p class="lead">Learn to identify early signs and symptoms of common mental health conditions to better support yourself and others.</p>
                 </div>
-                <div class="row g-4">
+            </div>
+            <div class="row g-4">
 
                     <!-- Common Health Issue Card 1 -->
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card border-0">
-                            <img src="assets/images/common-issues/anxiety.png" alt="Rocks in a river with mountain backdrop" >
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/images/common-issues/anxiety.png" class="card-img-top" alt="Rocks in a river with mountain backdrop">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title fw-bold">Anxiety</h5>
-                                <p class="card-text flex-grow-1">Join our expert-led yoga classes designed to improve flexibility, strength, and mindfulness. Perfect for all skill levels, from beginners to advanced practitioners.</p>
+                                <p class="card-text flex-grow-1">Anxiety disorders involve excessive fear or worry that interferes with daily activities and can manifest in various forms.</p>
+                                <!-- Dropdown for Common Symptoms -->
+                                <div class="accordion" id="anxietySymptomsAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingAnxietySymptoms">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAnxietySymptoms" aria-expanded="false" aria-controls="collapseAnxietySymptoms">
+                                                Common Symptoms
+                                            </button>
+                                        </h2>
+                                        <div id="collapseAnxietySymptoms" class="accordion-collapse collapse" aria-labelledby="headingAnxietySymptoms" data-bs-parent="#anxietySymptomsAccordion">
+                                            <div class="accordion-body">
+                                                <ul class="mb-0">
+                                                    <li>Excessive worrying</li>
+                                                    <li>Restlessness or feeling on edge</li>
+                                                    <li>Difficulty concentrating</li>
+                                                    <li>Fatigue</li>
+                                                    <li>Sleep disturbances</li>
+                                                    <li>Increased heart rate</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>
@@ -101,8 +123,30 @@
                             <img src="assets/images/common-issues/depression.png" class="card-img-top" alt="Mountain with floating clouds">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title fw-bold">Depression</h5>
-                                <p class="card-text flex-grow-1">Get personalized nutrition guidance from our certified nutritionists. Learn healthy eating habits and meal planning to support your wellness journey.</p>
-                                
+                                <p class="card-text flex-grow-1">Depression is a mood disorder that causes persistent feelings of sadness and loss of interest, affecting how you feel, think, and behave.</p>
+                                <!-- Dropdown for Common Symptoms -->
+                                <div class="accordion" id="depressionSymptomsAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingDepressionSymptoms">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDepressionSymptoms" aria-expanded="false" aria-controls="collapseDepressionSymptoms">
+                                                Common Symptoms
+                                            </button>
+                                        </h2>
+                                        <div id="collapseDepressionSymptoms" class="accordion-collapse collapse" aria-labelledby="headingDepressionSymptoms" data-bs-parent="#depressionSymptomsAccordion">
+                                            <div class="accordion-body">
+                                                <ul class="mb-0">
+                                                    <li>Persistent sadness or low mood</li>
+                                                    <li>Loss of interest in activities</li>
+                                                    <li>Feelings of worthlessness or guilt</li>
+                                                    <li>Changes in appetite or weight</li>
+                                                    <li>Sleep problems (too much or too little)</li>
+                                                    <li>Difficulty concentrating</li>
+                                                    <li>Thoughts of death or suicide</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -113,8 +157,30 @@
                             <img src="assets/images/common-issues/ptsd.png" class="card-img-top" alt="Mental Health Support">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title fw-bold">PTSD</h5>
-                                <p class="card-text flex-grow-1">Access professional mental health counseling and therapy services. We provide a safe, supportive environment for emotional wellbeing and personal growth.</p>
-                                
+                                <p class="card-text flex-grow-1">Post-Traumatic Stress Disorder (PTSD) is a mental health condition triggered by experiencing or witnessing a terrifying event.</p>
+                                <!-- Dropdown for Common Symptoms -->
+                                <div class="accordion" id="ptsdSymptomsAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingPtsdSymptoms">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePtsdSymptoms" aria-expanded="false" aria-controls="collapsePtsdSymptoms">
+                                                Common Symptoms
+                                            </button>
+                                        </h2>
+                                        <div id="collapsePtsdSymptoms" class="accordion-collapse collapse" aria-labelledby="headingPtsdSymptoms" data-bs-parent="#ptsdSymptomsAccordion">
+                                            <div class="accordion-body">
+                                                <ul class="mb-0">
+                                                    <li>Flashbacks or nightmares</li>
+                                                    <li>Severe emotional distress</li>
+                                                    <li>Avoidance of trauma reminders</li>
+                                                    <li>Negative changes in thinking</li>
+                                                    <li>Hypervigilance or being easily startled</li>
+                                                    <li>Difficulty sleeping</li>
+                                                    <li>Irritability or anger outbursts</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -125,17 +191,40 @@
                             <img src="assets/images/common-issues/phobias.png" class="card-img-top" alt="Wellness Programs">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title fw-bold">Phobias</h5>
-                                <p class="card-text flex-grow-1">Comprehensive wellness experiences combining multiple treatments for the ultimate spa day. Perfect for special occasions or self-care.</p>
+                                <p class="card-text flex-grow-1">Phobias are intense, irrational fears of specific objects, situations, or activities that pose little or no actual danger.</p>
+                                <!-- Dropdown for Common Symptoms -->
+                                <div class="accordion" id="phobiasSymptomsAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingPhobiasSymptoms">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhobiasSymptoms" aria-expanded="false" aria-controls="collapsePhobiasSymptoms">
+                                                Common Symptoms
+                                            </button>
+                                        </h2>
+                                        <div id="collapsePhobiasSymptoms" class="accordion-collapse collapse" aria-labelledby="headingPhobiasSymptoms" data-bs-parent="#phobiasSymptomsAccordion">
+                                            <div class="accordion-body">
+                                                <ul class="mb-0">
+                                                    <li>Intense fear when exposed to the phobic object</li>
+                                                    <li>Avoidance of the feared situation</li>
+                                                    <li>Panic attacks or severe anxiety</li>
+                                                    <li>Sweating, trembling, or rapid heartbeat</li>
+                                                    <li>Nausea or dizziness</li>
+                                                    <li>Feeling of losing control</li>
+                                                    <li>Knowing the fear is irrational but unable to control it</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>   
                 </div>
-        </div>
+            </div>
         </div>
     </section>
 
     <!-- Helpful tips on how to manage stress -->
-    <section id="helpful-tips" class="common-issues-section container">
+    <section id="helpful-tips" class="helpful-tips-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-5">
@@ -144,7 +233,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-8 col-md-10">
                     <div class="video-container">
                         <div class="ratio ratio-16x9">
                             <iframe src="https://www.youtube.com/embed/qUz93CyNIz0?rel=0" title="How to Manage Stress - Mental Health Tips" allowfullscreen></iframe>
@@ -157,13 +246,14 @@
 
     
     <!-- Support Section -->
-    <section id="support" class="support-section container">
-        <div class="support-content">
-            <h2 class="support-title">Get The Right Support</h2>
-            <p class="support-description">This is where you can add your mental health resources, support information, and additional content.</p>
+    <section id="support" class="support-section">
+        <div class="container">
+            <div class="support-content">
+                <h2 class="support-title">Get The Right Support</h2>
+                <p class="support-description">This is where you can add your mental health resources, support information, and additional content.</p>
+            </div>
         </div>
     </section>
-</section>
 
 
     
