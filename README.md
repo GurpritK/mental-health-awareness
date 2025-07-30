@@ -86,7 +86,9 @@ Bootstrap
 Github
 
 ### AI Use
-Used AI to implement my hero image and make it responsive across different screens, with an animated moving 'immediate support' button to bring attention to this CTA. 
+Used Copilot AI to implement my hero image and make it responsive across different screens, with an animated moving 'immediate support' button to bring attention to this CTA. Generated my hero image on Microsoft Copilot.
+
+Used Gemini AI to create my images for 'common mental health issues', focussing on creating nature photorealistic images to evoke calmness, and have a consistent nature theme throughout the page. Found Gemini AI was more effective at creating images in comparison to Microsoft.
 
 ## Testing
 Important part of your README!!!

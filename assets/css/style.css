@@ -7,11 +7,8 @@
     - Warm Beige	#F5EBDD- Card backgrounds, hero image overlay
     - Misty Lavender	#DDD6F3- Icon fills, modal backgrounds, section dividers
     - Cool Gray	#F0F0F0- Base layout, footer, forms
-
-    Updates to colour scheme, display font in a brown shade to make it stand out:  #654321
-    */
-
-
+    - Display font in brown shade: #654321
+*/
 
 /* Reset and Base Styles */
 * {
@@ -26,9 +23,7 @@ body {
     color: #654321;
 }
 
-/* Navbar styles */
-
-/* Logo styling */
+/* Navigation Styles */
 .logo {
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -38,27 +33,24 @@ body {
     transform: scale(1.05);
 }
 
-/* override bootstrap class font colour settings */
 .navbar-nav .nav-link,  
-.navbar-nav .nav-link.active{
+.navbar-nav .nav-link.active {
     color: #654321;
-    font-weight: 7px;
-
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 .navbar-nav .nav-link.active {
     font-weight: bold;
 }
 
-
-.navbar-nav .nav-link:hover{
+.navbar-nav .nav-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar-cta {
     display: inline-block;
-    justify-content: left;
     padding: 15px 30px;
     background: rgba(255, 255, 255, 0.2);
     color: #654321;
@@ -95,7 +87,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;                           
+    z-index: 1;
+}
+
+.hero-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero-content {
@@ -112,7 +110,7 @@ body {
     margin: 0 auto;
 }
 
-.hero-content p{
+.hero-content p {
     color: #654321;
     font-size: 1.1em;
     margin-bottom: 2rem;
@@ -129,51 +127,126 @@ body {
     animation: fadeInUp 1s ease-out;
 }
 
-        /* Common Health Issues - Cards Styling */
-        .common-issues-section .card {
-            border: none !important;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            position: relative;
-            z-index: 20;
-            margin-bottom: 2rem;
-        }
+/* Main Body Sections */
+.support-section, 
+.common-issues-section {
+    position: relative;
+    z-index: 10;
+    min-height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
 
-        .common-issues-section .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-        }
+.common-issues-section {
+    background: #f8f9fa;
+    padding-top: 0px;
+}
 
-        .common-issues-section .card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 15px 15px 0 0;
-        }
+.support-content, 
+.common-issues-content {
+    text-align: center;
+    padding: 2rem;
+    color: #B5D8B2;
+}
 
-        .common-issues-section .card-body {
-            padding: 1.5rem;
-            background: white;
-            border-radius: 0 0 15px 15px;
-            position: relative;
-            z-index: 25;
-        }
+.support-title {
+    color: #B5D8B2;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 15;
+}
 
-        .common-issues-section .card-title {
-            color: #2d5a3d;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
+.common-issues-section .container {
+    position: relative;
+    z-index: 15;
+}
 
-        .common-issues-section .card-text {
-            color: #666;
-            line-height: 1.6;
-        }
+.common-issues-section h2 {
+    color: #2d5a3d;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 15;
+}
 
+.common-issues-section .lead {
+    color: #666;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 15;
+}
 
+/* Cards Styling */
+.common-issues-section .card {
+    border: none !important;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 20;
+    margin-bottom: 2rem;
+}
 
+.common-issues-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.common-issues-section .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.common-issues-section .card-body {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    z-index: 25;
+}
+
+.common-issues-section .card-title {
+    color: #2d5a3d;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.common-issues-section .card-text {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Video/iframe styling */
+.video-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 15;
+}
+
+.ratio {
+    position: relative;
+    width: 100%;
+}
+
+.ratio iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
 
 /* Animations */
 @keyframes fadeInUp {
@@ -196,7 +269,7 @@ body {
     }
 }
 
-/* Responsive Design */
+/* Media Queries */
 @media (max-width: 768px) {
     .hero {
         height: 40vh;
@@ -236,7 +309,6 @@ body {
     }
 }
 
-/* Landscape mobile orientation */
 @media (max-height: 500px) and (orientation: landscape) {
     .hero {
         height: 60vh;
@@ -257,63 +329,5 @@ body {
     }
 }
 
-/* Hero Background Image */
-.hero-background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Main Body Section */
-.support-section, .common-issues-section {
-    position: relative;
-    z-index: 10;
-    min-height: 100vh;
-    background: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 0;
-}
-
-.support-content, .common-issues-content {
-    text-align: center;
-    padding: 2rem;
-    color: #B5D8B2;
-}
-
-.support-title {
-    color: #B5D8B2;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    position: relative;
-    z-index: 15;
-}
-
-/* Common Issues Section Specific Styling */
-.common-issues-section {
-    background: #f8f9fa;
-    padding-top: 100px;
-}
-
-.common-issues-section .container {
-    position: relative;
-    z-index: 15;
-}
-
-.common-issues-section h2 {
-    color: #2d5a3d;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    position: relative;
-    z-index: 15;
-}
-
-.common-issues-section .lead {
-    color: #666;
-    margin-bottom: 3rem;
-    position: relative;
-    z-index: 15;
-}
 
 
