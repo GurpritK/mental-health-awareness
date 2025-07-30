@@ -105,6 +105,12 @@ Website's color palette: (#97C3FA, #B5D8B2, #654321).
 
 ### Google's Lighthouse Performance
 Screenshots of certain pages and scores (mobile and desktop)
+
+Initial tests showed 75 for Performance, 98 for Accessibility and 57 for Best Practices. A deeper dive revealed performance issues with the hero image load.
+
+The attribute rel="noopener" for added security on external links was missing, so these were applied.
+
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
