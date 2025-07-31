@@ -162,6 +162,8 @@ List of used resources for your website (text, images, snippets of code, project
   https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-facts-and-statistics/ 
   https://www.youtube.com/watch?v=qUz93CyNIz0 
 
+  https://favicon.io/favicon-converter/ to generate the favicon from the logo image 
+
   
   - Media
 
