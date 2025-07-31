@@ -6,25 +6,13 @@
 
 ## Project Overview
 
-This project is a responsive, single-page website designed to promote mental health awareness and provide accessible information about common mental health challenges. Built with a focus on creating a calming, supportive digital environment for users seeking mental health resources.
+A responsive, single-page website promoting mental health awareness with accessible information about common mental health challenges. Built with a focus on creating a calming, supportive digital environment.
 
 ### Core Objectives
-
-🧠 **Educate** visitors on common mental health issues and evidence-based stress management techniques
-
-🎯 **Support** users by creating a safe, welcoming environment that reduces stigma and overwhelm
-
-🎨 **Design** with accessibility and emotional comfort in mind, using calming colors and intuitive navigation
-
-🔗 **Connect** users with professional mental health organizations and emergency support resources
-
-### Key Features at a Glance
-
-- **Responsive Design** - Optimized for mobile, tablet, and desktop viewing
-- **Accessibility First** - High contrast ratios, semantic HTML, keyboard navigation
-- **Interactive Elements** - Collapsible accordions, horizontal galleries, embedded video content
-- **Professional Resources** - Curated links to UK mental health organizations
-- **Emergency Support** - Prominent display of crisis helpline information 
+🧠 Educate visitors on mental health issues and stress management  
+🎯 Create a safe, welcoming environment that reduces stigma  
+🎨 Design with accessibility and emotional comfort in mind  
+🔗 Connect users with professional organizations and emergency support 
 
 ## Table of Contents
 
@@ -62,66 +50,31 @@ This project is a responsive, single-page website designed to promote mental hea
 
 
 ### Target Audience
-
-**Primary Users:**
 - Individuals experiencing mental health challenges seeking reliable information
 - People supporting friends or family members with mental health issues
 
 ### Wireframes
-
-The wireframes demonstrate a mobile-first approach with progressive enhancement for larger screens:
-
 ![Mobile Wireframes](assets/images/readme-images/mobile-wireframes.png)
-*Mobile wireframes showing vertical card layout and collapsible navigation*
-
 ![Desktop & Tablet Wireframes](assets/images/readme-images/other-wireframes.png)
-*Desktop and tablet wireframes featuring horizontal layouts and enhanced visual hierarchy*
 
 
 ### Typography
-
-**Font Family:** [Inter](https://fonts.google.com/specimen/Inter) - A modern, highly readable sans-serif typeface designed for optimal screen legibility.
-
-**Selection Criteria:**
-- ✅ **Calm Aesthetic** - Clean, minimal design that supports the website's calming atmosphere
-- ✅ **Accessibility** - Excellent readability across all screen sizes and resolutions
-- ✅ **Professional** - Suitable for health information while remaining approachable
-- ✅ **Performance** - Optimized web font with fast loading times
-
-**Typography Hierarchy:**
-- **Headings (h1-h3):** Inter Bold (700) - For section titles and important information
-- **Body Text:** Inter Regular (400) - For readable content and descriptions
-- **UI Elements:** Inter Medium (600) - For navigation and interactive elements
+**Font:** [Inter](https://fonts.google.com/specimen/Inter) - Modern, highly readable sans-serif designed for optimal screen legibility and calming aesthetic.
 
 ### Color Scheme
- 
-**Research Foundation:** Based on psychological research from "Colors That Calm the Mind: What Psychology and Cognitive Science Reveal"
-
-#### Development Process
-
-**Phase 1 - AI Research:** Initial color palette suggested by AI based on calming color psychology:
-- Sky Blue #A3D5F7 - Main background, buttons, section headers
-- Soft Sage Green #B5D8B2 - Accent panels, quotes, navigation highlights
-- Warm Beige #F5EBDD - Card backgrounds, hero image overlay
-- Misty Lavender #DDD6F3 - Icon fills, modal backgrounds, section dividers
-- Cool Gray #F0F0F0 - Base layout, footer, forms
+**Research Foundation:** Based on "Colors That Calm the Mind: What Psychology and Cognitive Science Reveal"
 
 ![AI Suggested Palette Compatibility Testing](assets/images/readme-images/colour-conflict.png)
 
-**Phase 2 - Refinement:** Adjusted for visual compatibility and accessibility compliance during development.
-
 #### Final Color Palette
-
-| Color | Hex Code | Usage | Psychological Effect |
-|-------|----------|-------|---------------------|
-| **Sky Blue** | `#97C3FA` | Hero gradients, primary accents | Promotes calm, reduces anxiety |
-| **Sage Green** | `#B5D8B2` | Navigation highlights, accent panels | Natural, soothing, represents growth |
-| **Forest Green** | `#2d5a3d` | Headings, section titles | Stability, grounding, trust |
-| **Warm Brown** | `#654321` | Body text, buttons, primary content | Comfort, reliability, earthiness |
-| **Light Gray** | `#f8f9fa` | Section backgrounds, card backgrounds | Clean, unobtrusive, spacious |
-| **Medium Gray** | `#666666` | Secondary text, descriptions | Supportive, readable, balanced |
-
-**Primary Gradient:** Sky Blue (#97C3FA) → Sage Green (#B5D8B2)
+| Color | Hex Code | Usage |
+|-------|----------|-------|
+| **Sky Blue** | `#97C3FA` | Hero gradients, primary accents |
+| **Sage Green** | `#B5D8B2` | Navigation highlights, accent panels |
+| **Forest Green** | `#2d5a3d` | Headings, section titles |
+| **Warm Brown** | `#654321` | Body text, buttons, primary content |
+| **Light Gray** | `#f8f9fa` | Section backgrounds, card backgrounds |
+| **Medium Gray** | `#666666` | Secondary text, descriptions |
 
 **Accessibility Compliance:** All color combinations meet WCAG 2.1 AA standards with contrast ratios of 4.5:1 or higher for optimal readability.
 
@@ -203,126 +156,35 @@ The website follows a **progressive disclosure** design philosophy, presenting i
 
 ## Technologies Used
 
-### Core Technologies
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| **HTML5** | Latest | Semantic structure and accessibility |
-| **CSS3** | Latest | Styling, animations, and responsive design |
-| **Bootstrap** | 5.3.7 | Grid system, components, and responsive utilities |
-| **JavaScript** | ES6+ | Interactive components and smooth scrolling |
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Semantic structure and accessibility |
+| **CSS3** | Styling, animations, and responsive design |
+| **Bootstrap 5.3.7** | Grid system, components, and responsive utilities |
+| **JavaScript** | Interactive components and smooth scrolling |
+| **GitHub Pages** | Website deployment and hosting |
 
-### Development Tools
-- **GitHub** - Version control and project hosting
-- **GitHub Pages** - Website deployment and hosting
-- **VS Code** - Primary development environment
-- **Chrome DevTools** - Testing, debugging, and performance optimization
-
-### Design & Content Tools
-- **Microsoft Copilot AI** - Hero image generation and responsive design implementation
-- **Gemini AI** - Content generation and nature-themed imagery creation
-- **Google Fonts** - Typography (Inter font family)
-- **Squoosh** - Image compression and optimization
-
-### Performance & Quality Assurance
-- **Google Lighthouse** - Performance, accessibility, and SEO auditing
-- **W3C Validators** - HTML and CSS code validation
-- **Adobe Color** - Color accessibility testing
-- **Coolors.co** - Color palette generation and testing
-
-### AI Integration Strategy
-
-**Copilot AI Applications:**
-- Responsive hero section implementation
-- Animated call-to-action button development
-- Cross-browser compatibility solutions
-- Code optimization and debugging assistance
-
-**Gemini AI Applications:**
-- Educational content creation for mental health topics
-- Nature-themed imagery generation for calming aesthetics
-- Stress management tips curation
-- Organization research and selection
-
-**Ethical AI Use:** All AI-generated content was reviewed, fact-checked against reputable sources (Mind.org.uk), and customized to meet project requirements and accessibility standards.
+**Design Tools:** Microsoft Copilot AI (hero image), Gemini AI (content/imagery), Google Fonts, Squoosh (compression)  
+**Testing Tools:** Google Lighthouse, W3C Validators, Adobe Color, Chrome DevTools
 
 ## Testing
 
-### Development Testing Process
+### Performance & Accessibility
+![Desktop Audit Results](assets/images/readme-images/desktop-audit-score.png) ![Mobile Audit Results](assets/images/readme-images/mobile-audit-lighthouse.png)
 
-**Iterative Design Refinement:**
-During development, several design challenges were identified and resolved:
-- Original AI-suggested colors lacked visual harmony and accessibility compliance
-- Section spacing inconsistencies due to padding overlaps and margin conflicts
-- Responsive layout issues requiring mobile-first approach refinement
-
-**Resolution Methods:**
-- Used Chrome DevTools to identify specific CSS conflicts
-- Implemented systematic color palette testing for contrast ratios
-- Applied consistent spacing variables throughout the stylesheet
-- Conducted cross-device testing throughout development
-
-### Performance Testing
-
-#### Google Lighthouse Audits
-
-**Desktop Performance:**
-![Desktop Audit Results](assets/images/readme-images/desktop-audit-score.png)
-
-**Mobile Performance:**
-![Mobile Audit Results](assets/images/readme-images/mobile-audit-lighthouse.png)
-
-**Optimization Implemented:**
-- ✅ Added `rel="noopener"` attributes for external link security
-- ✅ Compressed hero image using Squoosh for faster loading
-- ✅ Implemented responsive images with appropriate sizing
-- ✅ Optimized CSS delivery and removed unused styles
-- ✅ Added semantic HTML structure for better accessibility scores
-
-### Accessibility Testing
-
-**WCAG 2.1 AA Compliance:**
-- ✅ Color contrast ratios exceed 4.5:1 for all text combinations
-- ✅ Semantic HTML structure with proper heading hierarchy
-- ✅ Alt text provided for all informative images
-- ✅ Keyboard navigation support for all interactive elements
-- ✅ Screen reader compatibility tested with NVDA
-
-**Focus Management:**
-- Skip links for keyboard navigation
-- Visible focus indicators on all interactive elements
-- Logical tab order throughout the page
+**Optimizations:** Added `rel="noopener"` for security, compressed images, semantic HTML structure, WCAG 2.1 AA compliance
 
 ### Browser Compatibility
+| Browser | Status | Notes |
+|---------|--------|-------|
+| **Chrome** | ✅ Passed | Primary development browser |
+| **Safari** | ✅ Passed | iOS and macOS compatibility confirmed |
 
-| Browser | Version | Status | Notes |
-|---------|---------|--------|-------|
-| **Chrome** | Latest | ✅ Passed | Primary development browser |
-| **Safari** | Latest | ✅ Passed | iOS and macOS compatibility confirmed |
-
-### Responsive Design Testing
-
-**Breakpoint Testing:**
-- 📱 **Mobile (320px-768px):** Vertical card layout, collapsible navigation
-- 📱 **Tablet (768px-1024px):** Hybrid layout with optimized spacing
-- 💻 **Desktop (1024px+):** Full horizontal layout with maximum content width
-
-![Desktop View](assets/images/readme-images/desktop-view.png)
-![Tablet View](assets/images/readme-images/tablet-view.png)
-![Mobile View](assets/images/readme-images/phone-view.png)
+### Responsive Design
+![Desktop View](assets/images/readme-images/desktop-view.png) ![Tablet View](assets/images/readme-images/tablet-view.png) ![Mobile View](assets/images/readme-images/phone-view.png)
 
 ### Code Validation
-
-**HTML Validation (W3C Markup Validator):**
-![HTML Validator Results](assets/images/readme-images/html-validator.png)
-- ✅ No errors or warnings
-- ✅ Semantic HTML5 structure validated
-- ✅ Accessibility attributes properly implemented
-
-**CSS Validation (W3C CSS Validator):**
-![CSS Validator Results](assets/images/readme-images/css-validator.png)
-- ✅ No errors in custom CSS
-- ✅ Bootstrap integration validated
-- ✅ Cross-browser compatibility confirmed
+![HTML Validator Results](assets/images/readme-images/html-validator.png) ![CSS Validator Results](assets/images/readme-images/css-validator.png)
 
 ### User Story Testing
 
@@ -331,53 +193,17 @@ All user stories from the GitHub project board have been tested and validated ag
 
 ![Project Board - Completed User Stories](assets/images/readme-images/user-stories-screenshot.jpeg)
 
-**Manual Testing Results:**
-
-| User Story | Test Scenario | Expected Result | Actual Result | Status |
-|------------|---------------|-----------------|---------------|---------|
-| Access mental health information | Navigate to common issues section | Information displays in accessible format | Accordion cards expand with detailed content | ✅ Pass |
-| Find stress management techniques | Scroll to tips section | Tips display in easy-to-browse format | Horizontal scrolling cards with practical advice | ✅ Pass |
-| Get emergency support | Look for crisis information | Emergency details prominently displayed | Dedicated section with helpline and visual indicator | ✅ Pass |
-| Mobile accessibility | Use website on mobile device | Responsive design adapts smoothly | All features work seamlessly on mobile | ✅ Pass |
-| External resource access | Click organization links | Links open safely in new tabs | All 10 organization links tested and functional | ✅ Pass |
-
-**Functional Testing:**
-- ✅ Accordion expand/collapse functionality
-- ✅ YouTube video embedding and playback
-- ✅ Horizontal gallery scrolling on all devices
-- ✅ Navigation smooth scrolling to sections
-- ✅ Form validation (where applicable)
-- ✅ External link security and functionality
 
 ## Known Issues
 
-### Current Limitations
-
 **Minor UI Inconsistencies:**
-- **Mobile Navigation:** Hamburger menu icon appears on the right, but menu content expands from the left
-  - *Impact:* Aesthetic inconsistency, no functional impact
-  - *Priority:* Low - does not affect usability
-  - *Planned Fix:* Future CSS adjustment for menu animation direction
+- Mobile hamburger menu icon appears on right, but menu expands from left (aesthetic only)
+- Social media footer links redirect to login pages rather than specific profiles (placeholder implementation)
 
-**Social Media Links:**
-- **Footer Links:** Currently redirect to social media login pages rather than specific profiles
-  - *Impact:* Users land on generic login pages instead of project-specific social accounts
-  - *Priority:* Medium - affects external engagement
-  - *Status:* Placeholder implementation for demonstration purposes
-
-### Resolved Issues
-
-**Bootstrap Style Conflicts:**
-- ✅ **Fixed:** Navbar text defaulting to black due to Bootstrap inheritance
-- ✅ **Solution:** Implemented more specific CSS selectors to override Bootstrap defaults
-
-**Card Layout Problems:**
-- ✅ **Fixed:** Accordion expansion causing neighboring card height inconsistencies
-- ✅ **Solution:** Applied consistent card heights and flexbox alignment
-
-**Mobile Responsiveness:**
-- ✅ **Fixed:** CTA button and navbar icon overlap on smaller screens
-- ✅ **Solution:** Moved CTA button to hero section, improving visibility and UX
+**Resolved Issues:**
+- ✅ Fixed navbar text defaulting to black (Bootstrap inheritance)
+- ✅ Fixed accordion expansion causing card height inconsistencies  
+- ✅ Fixed CTA button/navbar overlap on mobile screens
 
 ## Future Enhancements
 
@@ -390,18 +216,8 @@ All user stories from the GitHub project board have been tested and validated ag
 
 ## Deployment
 
-### GitHub Pages Deployment
+Website deployed using GitHub Pages:
 
-The website is deployed using GitHub Pages with the following process:
-
-#### Deployment Process
-1. Navigate to the GitHub repository: [mental-health-awareness](https://github.com/GurpritK/mental-health-awareness)
-2. Go to **Settings** tab
-3. Scroll to **Pages** section in left sidebar
-4. Under **Source**, select **Deploy from a branch**
-5. Choose **main** branch from dropdown
-6. Select **/ (root)** as the folder
-7. Click **Save**
 
 ![Deployment Configuration](assets/images/readme-images/deploy-screenshot.jpeg)
 
@@ -417,72 +233,37 @@ The website is deployed using GitHub Pages with the following process:
 
 ## Credits & Acknowledgments
 
-### Content Sources & Research
+### Content Sources
+- **[Mind.org.uk](https://www.mind.org.uk/)** - Mental health statistics and information foundation
+- **[YouTube Stress Management Video](https://www.youtube.com/watch?v=qUz93CyNIz0)** - Educational content
+- **"Colors That Calm the Mind"** - Academic research for color psychology
 
-**Primary Research:**
-- **[Mind.org.uk](https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-facts-and-statistics/)** - Comprehensive mental health statistics and information used as the foundation for all mental health content
-- **Psychological Research:** "Colors That Calm the Mind: What Psychology and Cognitive Science Reveal" - Academic research informing color palette selection
+### Tools & Resources
+- **[Adobe Color](https://color.adobe.com/create/color-accessibility)** - Accessibility testing
+- **[Coolors.co](https://coolors.co/)** - Color palette generation  
+- **[Squoosh](https://squoosh.app/)** - Image compression
+- **[Am I Responsive](https://ui.dev/amiresponsive)** - Responsive testing
+- **W3C Validators** - Code validation
 
-**Educational Content:**
-- **Stress Management Video:** [YouTube - How to Manage Stress](https://www.youtube.com/watch?v=qUz93CyNIz0) - Professional mental health content embedded for educational purposes
-- **Organization Research:** AI-assisted identification of top 10 UK mental health organizations, verified against official sources
-- **Symptom Information:** AI-generated content based on clinical criteria, fact-checked against Mind.org.uk resources
+### AI & Media
+- **Microsoft Copilot AI** - Hero image generation and responsive design
+- **Google Gemini AI** - Content generation and nature imagery
+- **Organization Logos** - From respective official websites
+- **[Inter Font](https://fonts.google.com/specimen/Inter)** - Typography
 
-### Technical Resources & Tools
+#### Coding using AI
+I leveraged AI throughout my development process to both implement new features and refine existing code. For instance, I would often use a core piece of code from a framework like Bootstrap and then apply AI to enhance its aesthetics or add new functionality.
 
-**Development Tools:**
-- **[Adobe Color](https://color.adobe.com/create/color-accessibility)** - Color accessibility testing and validation
-- **[Coolors.co](https://coolors.co/)** - Color palette generation and harmony testing
-- **[Favicon.io](https://favicon.io/favicon-converter/)** - Favicon generation from logo image
-- **[Squoosh](https://squoosh.app/)** - Image compression and optimization
-- **[Am I Responsive](https://ui.dev/amiresponsive)** - Responsive design testing and screenshots
+A specific example of this was when I needed a horizontal slidebar to display a gallery of tips. After several unsuccessful attempts at coding it myself using resources from Bootstrap and YouTube, I turned to AI. I described my issue and asked it to convert my existing carousel slideshow into a scrollable horizontal slidebar, which it implemented perfectly without any issues.
 
-**Code Validation:**
-- **W3C Markup Validator** - HTML validation and semantic structure verification
-- **W3C CSS Validator** - CSS code validation and standards compliance
-- **Google Lighthouse** - Performance, accessibility, and SEO auditing
+Beyond major features, I also used AI for more routine tasks to increase efficiency. This included setting repeat attributes on HTML elements and consolidating CSS to remove duplicate code. I also used AI to perform a final cleanup of the project, which involved removing redundant code and combining repeated selectors in the CSS. By augmenting my workflow with AI, I saved a significant amount of time, giving me the freedom to experiment with different features and designs.
 
-### Media & Assets
+Finally, AI was an invaluable partner during the testing phase. I used Chrome Developer tools to pinpoint issues with the website's layout or features, and then I would simply direct the AI to the line of code that needed fixing. This allowed me to see the effects of the changes immediately and revert them if they weren't what I wanted, making the debugging process much faster and more intuitive.
 
-**Visual Content:**
-- **Hero Image:** AI-generated misty forest scene (Microsoft Copilot) - Custom created for calming aesthetic
-- **Mental Health Issue Cards:** AI-generated nature imagery (Gemini AI) - Photorealistic nature scenes for therapeutic effect
-- **Organization Logos:** Sourced from respective official websites with fallback to compatible versions via Google Images where necessary
-- **Typography:** [Inter font family](https://fonts.google.com/specimen/Inter) by Rasmus Andersson - Open source, optimized for screens
-
-**Icon Library:**
-- **Bootstrap Icons** - Emergency, navigation, and UI icons
-- **Custom Graphics** - Color palette swatches and visual elements
-
-### AI Technology Integration
-
-**Microsoft Copilot AI:**
-- Hero section responsive implementation
-- Animated CTA button development
-- Cross-browser compatibility solutions
-- Code optimization and debugging assistance
-
-**Google Gemini AI:**
-- Mental health content generation and curation
-- Nature-themed imagery creation
-- Stress management tips compilation
-- UK mental health organization research
-
-
-### Professional Acknowledgments
-
-**Special Thanks:**
+### Acknowledgments
 - **Code Institute** - Educational framework and project template
-- **Mind.org.uk** - Authoritative mental health information and research
-- **Mental Health Professionals** - Whose research and guidelines inform the content approach
-- **Accessibility Community** - For standards and best practices ensuring inclusive design
-
-### Open Source & Community
-
-**Frameworks & Libraries:**
-- **Bootstrap 5.3.7** - Responsive grid system and components
-- **Google Fonts** - Web typography optimization
-- **GitHub Pages** - Free hosting and deployment platform
+- **Bootstrap 5.3.7** - Responsive framework
+- **GitHub Pages** - Hosting platform
 
 
 
