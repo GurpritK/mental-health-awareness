@@ -189,7 +189,7 @@ body {
 .common-issues-section .lead,
 .helpful-tips-section .lead,
 .support-section .lead {
-    color: #666 !important;
+    color: #654321 !important;
     margin-bottom: 2rem; /* Reduced from 3rem to 2rem */
     position: relative;
     z-index: 15;
@@ -243,7 +243,7 @@ body {
 }
 
 .common-issues-section .card-text {
-    color: #666;
+    color: #654321;
     line-height: 1.6;
     flex-grow: 1;
     margin-bottom: 1rem;
