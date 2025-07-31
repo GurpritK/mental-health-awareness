@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Awareness - Color Palette</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #97C3FA 0%, #B5D8B2 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .palette-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .palette-title {
+            text-align: center;
+            color: #2d5a3d;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .palette-subtitle {
+            text-align: center;
+            color: #654321;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .color-swatch {
+            aspect-ratio: 1;
+            border-radius: 15px;
+            position: relative;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .color-swatch:hover {
+            transform: scale(1.05);
+        }
+        
+        .color-info {
+            position: absolute;
+            bottom: -60px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+        
+        .color-name {
+            font-weight: 600;
+            color: #2d5a3d;
+            font-size: 0.9rem;
+            margin-bottom: 2px;
+        }
+        
+        .color-hex {
+            font-family: 'Monaco', monospace;
+            color: #666666;
+            font-size: 0.8rem;
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .sky-blue { background-color: #97C3FA; }
+        .sage-green { background-color: #B5D8B2; }
+        .forest-green { background-color: #2d5a3d; }
+        .warm-brown { background-color: #654321; }
+        .light-gray { background-color: #f8f9fa; border: 2px solid #e9ecef; }
+        .medium-gray { background-color: #666666; }
+        
+        .palette-description {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            color: #654321;
+            line-height: 1.6;
+            margin-top: 80px;
+        }
+        
+        .usage-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .usage-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        
+        .usage-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .usage-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="palette-container">
+        <h1 class="palette-title">Mental Health Awareness</h1>
+        <p class="palette-subtitle">Calming Color Palette • 6 Core Colors</p>
+        
+        <div class="color-grid">
+            <div class="color-swatch sky-blue">
+                <div class="color-info">
+                    <div class="color-name">Sky Blue</div>
+                    <div class="color-hex">#97C3FA</div>
+                </div>
+            </div>
+            <div class="color-swatch sage-green">
+                <div class="color-info">
+                    <div class="color-name">Sage Green</div>
+                    <div class="color-hex">#B5D8B2</div>
+                </div>
+            </div>
+            <div class="color-swatch forest-green">
+                <div class="color-info">
+                    <div class="color-name">Forest Green</div>
+                    <div class="color-hex">#2d5a3d</div>
+                </div>
+            </div>
+            <div class="color-swatch warm-brown">
+                <div class="color-info">
+                    <div class="color-name">Warm Brown</div>
+                    <div class="color-hex">#654321</div>
+                </div>
+            </div>
+            <div class="color-swatch light-gray">
+                <div class="color-info">
+                    <div class="color-name">Light Gray</div>
+                    <div class="color-hex">#f8f9fa</div>
+                </div>
+            </div>
+            <div class="color-swatch medium-gray">
+                <div class="color-info">
+                    <div class="color-name">Medium Gray</div>
+                    <div class="color-hex">#666666</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="palette-description">
+            <h3 style="color: #2d5a3d; margin-top: 0;">Color Psychology & Usage</h3>
+            <p><strong>Primary Gradient:</strong> Sky Blue (#97C3FA) → Sage Green (#B5D8B2)</p>
+            
+            <div class="usage-grid">
+                <div class="usage-item">
+                    <span class="usage-color sky-blue"></span>
+                    <span>Hero gradients, primary accents</span>
+                </div>
+                <div class="usage-item">
+                    <span class="usage-color sage-green"></span>
+                    <span>Navigation highlights, accent panels</span>
+                </div>
+                <div class="usage-item">
+                    <span class="usage-color forest-green"></span>
+                    <span>Headings, section titles</span>
+                </div>
+                <div class="usage-item">
+                    <span class="usage-color warm-brown"></span>
+                    <span>Body text, buttons, primary content</span>
+                </div>
+                <div class="usage-item">
+                    <span class="usage-color light-gray"></span>
+                    <span>Section backgrounds, card backgrounds</span>
+                </div>
+                <div class="usage-item">
+                    <span class="usage-color medium-gray"></span>
+                    <span>Secondary text, descriptions</span>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px; margin-bottom: 0;">
+                <em>Colors chosen specifically for their calming psychological effects while maintaining high contrast ratios for optimal readability and accessibility compliance.</em>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
