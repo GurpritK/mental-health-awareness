@@ -73,12 +73,18 @@ Colors That Calm the Mind: What Psychology and Cognitive Science Reveal: https:/
 https://color.adobe.com/create/color-accessibility 
 
 
+
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
 
+Information available is provided in an approachable, welcoming manner with designs where  users have autonomy to click through the different features of the website and get the information they are interested in. I have chosen this approach where information is concealed so that the volume of information is not overwhelming and overcrowd the website, but it's obvious where to go to find the information desired.
+
 - 'Get Support' button shown at the beginning of the page, floating into view, prompting users attention to the CTA. The button leads to the 'support' section of the website, so users can immediately find the support they require.
-- 'Common Symptoms' dropdown menu which shows the symptoms associated with each common mental health problem. Showcasing this data within a dropdown meant that the website was not overcroweded with information, and users can click on the symptoms they are interested to learn more about.
-- Embedded YouTube link on 'How to manange stress' found within the corresponding section to offer information in a different format for visual learners. Users can click on the video directly within the website page.
+- 'Common Symptoms' dropdown menu which shows the symptoms associated with each common mental health problem. Showcasing this data within a dropdown meant that the website was not overcroweded with information, and users can click on the symptoms they are interested to learn about.
+- Embedded YouTube link on 'How to manange stress' found within the corresponding section to offer information in a different format for visual learners. Users can click on the video directly within the website page. I decided to include a video to increase the variety of ways to consume information to appeal to different users. 
+- Quick tips to manage stress displayed on cards on a horizontal slidebar for interested users to slide through.
+- It was important to display instructions for emergency situations in a clear and direct format. Therefore, I displayed this information in it's own display box, with an icon for emergency sirens to draw the users attention.
+- Links to other mental health organisations are displayed at the end of the page, these links open in a new tab. These links have been designed so that they are eye-catching, and encourage the user to click on them as they are logos of the organisations overlayed on a white display box, and shadows underneath the box (like a button).
 
 ### Navigation
 ### Footer
@@ -132,9 +138,9 @@ Issues with the dropdown for 'common symptoms' - when I opened up one dropdown, 
 "Problems Identified:
 Inconsistent Card Heights: When one accordion expanded, it made that card taller, shifting other cards"
 
-Get Immediate Support CTA button and navbar icon positioning overlaps on smaller screens.
+Get Support CTA button and navbar icon positioning overlaps on smaller screens when both were included in the navbar. I moved the Support CTA button to the hero section instead, and this made it more eye-catching too.
 
-Navbar burger icon opens up menu on the left hand side of page for smaller screens, but the icon sits on the right.
+Navbar burger icon opens up menu text on the left hand side of page for smaller screens, but the icon sits on the right.
 
 ## Deployment
 
@@ -158,6 +164,8 @@ List of used resources for your website (text, images, snippets of code, project
 
   
   - Media
+
+  Logos for mental health organisations taken from their respective sites. In cases where the logo from the sites were not compatible with my website, more compatible logos were found using Google Images.
   
   - Acknowledgment
     
