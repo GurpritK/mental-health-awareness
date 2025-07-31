@@ -333,15 +333,7 @@ body {
     border: none;
 }
 
-/* Emergency Support Section Styling */
-.emergency-support-container {
-    margin-top: 2rem;
-    padding: 2rem;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
+/* Emergency Support Cards - Combined styling */
 .emergency-card,
 .urgent-support-card {
     padding: 1.5rem;
@@ -353,7 +345,6 @@ body {
 .emergency-card {
     background: linear-gradient(135deg, #f8fdff 0%, #eef7ff 100%);
     border-color: #97C3FA;
-    justify-content: center;
 }
 
 .urgent-support-card {
@@ -361,17 +352,17 @@ body {
     border-color: #B5D8B2;
 }
 
+.emergency-card h4,
+.urgent-support-card h4 {
+    color: #2d5a3d !important;
+    text-align: center;
+}
+
 .emergency-header {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
     justify-content: center;
-}
-
-.emergency-card h4,
-.urgent-support-card h4 {
-    color: #2d5a3d !important;
-    text-align: center;
 }
 
 .emergency-action {
@@ -386,11 +377,11 @@ body {
     font-style: italic;
 }
 
+/* Support List Styling */
 .support-list {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
 .support-list li {
@@ -480,6 +471,7 @@ footer .social-links a:hover {
     }
 }
 
+/* Responsive Gallery */
 @media (max-width: 768px) {
     .hero {
         height: 40vh;
@@ -496,7 +488,7 @@ footer .social-links a:hover {
     
     .hero-content {
         padding: 1.5rem;
-        margin: 60px 1rem 0 1rem; /* Adjust top margin for mobile */
+        margin: 60px 1rem 0 1rem;
     }
     
     .video-container {
@@ -507,18 +499,33 @@ footer .social-links a:hover {
     .common-issues-section,
     .helpful-tips-section,
     .support-section {
-        padding-top: 40px; /* Reduced from 60px to 40px */
-    }
-    
-    .emergency-support-container {
-        padding: 1rem;
-        margin-top: 1rem;
+        padding-top: 40px;
     }
     
     .emergency-card,
     .urgent-support-card {
         padding: 1rem;
         margin-bottom: 1rem;
+    }
+    
+    /* Gallery responsive styles */
+    .gallery-item {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .gallery-container {
+        gap: 0.8rem;
+        padding: 0.8rem 0 1.5rem 0;
+    }
+    
+    .gallery-overlay h5 {
+        font-size: 0.95rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .gallery-overlay p {
+        font-size: 0.8rem;
     }
 }
 
@@ -533,7 +540,7 @@ footer .social-links a:hover {
     
     .hero-content {
         padding: 1rem;
-        margin-top: 60px; /* Maintain top spacing on very small screens */
+        margin-top: 60px;
     }
     
     .hero-cta,
@@ -545,8 +552,31 @@ footer .social-links a:hover {
     .video-container {
         padding: 0;
     }
+    
+    /* Gallery responsive styles for small screens */
+    .gallery-item {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .gallery-container {
+        gap: 0.6rem;
+        padding: 0.6rem 0 1.2rem 0;
+    }
+    
+    .gallery-container::-webkit-scrollbar {
+        height: 6px;
+    }
+    
+    .gallery-overlay h5 {
+        font-size: 0.9rem;
+        margin-bottom: 0.1rem;
+    }
+    
+    .gallery-overlay p {
+        font-size: 0.75rem;
+    }
 }
-
 
 @media (max-height: 500px) and (orientation: landscape) {
     .hero {
@@ -601,6 +631,7 @@ footer .social-links a:hover {
     background: linear-gradient(135deg, #B5D8B2, #97C3FA);
 }
 
+/* Gallery Items */
 .gallery-item {
     flex: 0 0 auto;
     width: 200px;
@@ -623,37 +654,14 @@ footer .social-links a:hover {
 }
 
 /* Different shades of green for each gallery item */
-.gallery-green-1 {
-    background: linear-gradient(135deg, #2d5a3d 0%, #4a7c59 100%); /* Dark Forest Green */
-}
-
-.gallery-green-2 {
-    background: linear-gradient(135deg, #B5D8B2 0%, #9bc99b 100%); /* Soft Sage Green */
-}
-
-.gallery-green-3 {
-    background: linear-gradient(135deg, #6b8e6b 0%, #8fb08f 100%); /* Medium Green */
-}
-
-.gallery-green-4 {
-    background: linear-gradient(135deg, #4f7942 0%, #6b9d58 100%); /* Olive Green */
-}
-
-.gallery-green-5 {
-    background: linear-gradient(135deg, #7fb069 0%, #a3d977 100%); /* Fresh Green */
-}
-
-.gallery-green-6 {
-    background: linear-gradient(135deg, #355e3b 0%, #4f7942 100%); /* Hunter Green */
-}
-
-.gallery-green-7 {
-    background: linear-gradient(135deg, #90c695 0%, #b8e6c1 100%); /* Light Green */
-}
-
-.gallery-green-8 {
-    background: linear-gradient(135deg, #5d8233 0%, #7ba428 100%); /* Moss Green */
-}
+.gallery-green-1 { background: linear-gradient(135deg, #2d5a3d 0%, #4a7c59 100%); }
+.gallery-green-2 { background: linear-gradient(135deg, #B5D8B2 0%, #9bc99b 100%); }
+.gallery-green-3 { background: linear-gradient(135deg, #6b8e6b 0%, #8fb08f 100%); }
+.gallery-green-4 { background: linear-gradient(135deg, #4f7942 0%, #6b9d58 100%); }
+.gallery-green-5 { background: linear-gradient(135deg, #7fb069 0%, #a3d977 100%); }
+.gallery-green-6 { background: linear-gradient(135deg, #355e3b 0%, #4f7942 100%); }
+.gallery-green-7 { background: linear-gradient(135deg, #90c695 0%, #b8e6c1 100%); }
+.gallery-green-8 { background: linear-gradient(135deg, #5d8233 0%, #7ba428 100%); }
 
 /* Text Overlay Styles */
 .gallery-overlay {
@@ -684,55 +692,6 @@ footer .social-links a:hover {
 
 .gallery-item:hover .gallery-overlay {
     transform: translate(-50%, -50%) scale(1.05);
-}
-
-/* Responsive Gallery */
-@media (max-width: 768px) {
-    .gallery-item {
-        width: 180px;
-        height: 180px;
-        padding: 8px;
-    }
-    
-    .gallery-container {
-        gap: 0.8rem;
-        padding: 0.8rem 0 1.5rem 0;
-    }
-    
-    .gallery-overlay h5 {
-        font-size: 0.95rem;
-        margin-bottom: 0.2rem;
-    }
-    
-    .gallery-overlay p {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .gallery-item {
-        width: 160px;
-        height: 160px;
-        padding: 6px;
-    }
-    
-    .gallery-container {
-        gap: 0.6rem;
-        padding: 0.6rem 0 1.2rem 0;
-    }
-    
-    .gallery-container::-webkit-scrollbar {
-        height: 6px;
-    }
-    
-    .gallery-overlay h5 {
-        font-size: 0.9rem;
-        margin-bottom: 0.1rem;
-    }
-    
-    .gallery-overlay p {
-        font-size: 0.75rem;
-    }
 }
 
 
