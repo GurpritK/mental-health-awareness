@@ -130,6 +130,9 @@ User Story |  Test | Pass
 paste here you user story | what is visible to the user and what action they should perform | &check;
 - and attach screenshot
 
+
+![Project Board with Complete User Stories Screenshot](assets/images/readme-images/user-stories-screenshot.jpeg)
+
 ## Bugs
 List of bugs and how did you fix them
 Navbar font set to black by default by inheriting bootstrap properties. Created more specific styling to target this, and change to brown. 
@@ -154,6 +157,9 @@ The site was deployed to Github Pages using the following method:
 - Navigate to the 'settings' tab.
 - Using the 'select branch' dropdown menu, choose 'main'.
 - Click 'save'.
+
+
+![Deploy Website Screenshot](assets/images/readme-images/deploy-screenshot.jpeg)
 
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
