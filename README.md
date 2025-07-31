@@ -384,6 +384,10 @@ All user stories from the GitHub project board have been tested and validated ag
 ### Technical Improvements
 - [ ] **Performance Optimization:** Implement lazy loading for images and content
 
+### Future Features
+- [ ] **Resources Hub:** Add a resources webpage with a book and podcast recommendations, along with more YouTube videos
+- [ ] **Community Page:** Create a community page where users can sign up to join the community
+
 ## Deployment
 
 ### GitHub Pages Deployment
@@ -469,7 +473,6 @@ The website is deployed using GitHub Pages with the following process:
 - Stress management tips compilation
 - UK mental health organization research
 
-**Ethical AI Disclaimer:** All AI-generated content has been thoroughly reviewed, fact-checked against authoritative mental health sources, and customized to meet professional healthcare information standards.
 
 ### Professional Acknowledgments
 
