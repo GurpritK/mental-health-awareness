@@ -394,11 +394,6 @@ All user stories from the GitHub project board have been tested and validated ag
 
 The website is deployed using GitHub Pages with the following process:
 
-#### Repository Setup
-1. **Template Creation:** Started with [Code Institute's Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template)
-2. **Repository Creation:** Used "Use this template" → "Create a new repository"
-3. **Development Environment:** Launched Gitpod workspace for code development
-
 #### Deployment Process
 1. Navigate to the GitHub repository: [mental-health-awareness](https://github.com/GurpritK/mental-health-awareness)
 2. Go to **Settings** tab
